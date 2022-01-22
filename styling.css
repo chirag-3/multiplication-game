@@ -1,0 +1,15 @@
+body{
+  height : 100vh;
+  background-color: grey;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  height : 70%;
+  width : 50%;
+  background-color: lightblue;
+  border-radius:10px;
+}
