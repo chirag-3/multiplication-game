@@ -1,6 +1,9 @@
+*{
+  box-sizing: border-box;
+}
 body{
   height : 100vh;
-  background-color: grey;
+  background-color: #c4a4a4;
   display:flex;
   flex-direction:row;
   justify-content: center;
@@ -12,4 +15,102 @@ body{
   width : 50%;
   background-color: lightblue;
   border-radius:10px;
+  /* padding:10px; */
+  display: flex;
+  flex-direction:column;
+}
+
+#score{
+  display:flex;
+  justify-content:flex-end;
+  /* background-color: red; */
+  float:right;
+  align-items: center;
+  flex:1 1 15%;
+}
+
+#score p{
+  border:1px solid black;
+  border-radius: 5px;
+  /* width:12%; */
+  text-align:center;
+  /* height:50%; */
+  margin:0px;
+  background-color:yellow;
+  flex:0 0 20%;
+  padding:10px;
+  margin-right:15px;
+}
+
+
+#question{
+  /* background-color:lightgreen; */
+  flex:1 1 40%;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+#question div{
+  background-color: #ff992d;
+  flex:1;
+  margin:15px;
+}
+
+#instruction{
+  /* background-color: pink; */
+  flex:1 1 10%;
+  /* text-align:center; */
+  display:flex;
+  justify-content: center;
+  align-items: stretch;
+  /* padding-top:3px; */
+}
+
+#instruction p{
+  text-align:center;
+  border:1px black solid ;
+  /* height:100%; */
+  border-radius:5px;
+  width:50%;
+  margin:0px;
+  padding:15px;
+}
+
+#options{
+  /* background-color: magenta; */
+  flex:1 1 25%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap:wrap;
+}
+#options button{
+  flex:0 0 20%;
+  height:70%;
+  background-color:#1fe099;
+}
+
+#reset{
+  /* background-color: orange; */
+  flex:1 1 10%;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+#reset button{
+  background-color: pink;
+  /* border:black solid 1px; */
+  height:70%;
+  margin-left:20px;
+}
+
+#reset p{
+  background-color: lightgreen;
+  border:black solid 1px;
+  height:70%;
+  /* text-align: center; */
+  padding-top:10px;
+  margin-right:20px;
 }
