@@ -22,14 +22,39 @@ body{
 
 #score{
   display:flex;
-  justify-content:flex-end;
+  justify-content:space-between;
   /* background-color: red; */
   float:right;
   align-items: center;
   flex:1 1 15%;
 }
 
-#score p{
+#no_use{
+  background-color: yellow;
+  border:1px black solid;
+  border-radius: 5px;
+  margin:0px;
+  /* background-color:yellow; */
+  flex:0 0 20%;
+  padding:10px;
+  text-align:center;
+  margin-left:15px;
+  visibility: hidden;
+}
+
+#result{
+  background-color: lightgreen;
+  border:1px black solid;
+  border-radius: 5px;
+  margin:0px;
+  /* background-color:yellow; */
+  text-align:center;
+  padding:10px;
+  flex:0 0 20%;
+  visibility: hidden;
+}
+
+#points{
   border:1px solid black;
   border-radius: 5px;
   /* width:12%; */
@@ -85,10 +110,11 @@ body{
   align-items: center;
   flex-wrap:wrap;
 }
-#options button{
+#options input{
   flex:0 0 20%;
   height:70%;
   background-color:#1fe099;
+  border-radius: 7px;
 }
 
 #reset{
@@ -99,11 +125,12 @@ body{
   align-items:center;
 }
 
-#reset button{
+#reset input{
   background-color: pink;
   /* border:black solid 1px; */
   height:70%;
   margin-left:20px;
+  border-radius:10px;
 }
 
 #reset p{

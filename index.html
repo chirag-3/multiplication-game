@@ -8,12 +8,18 @@
   <body>
     <div class="container">
          <div id="score">
-           <p>
+           <p id=no_use>
+             This will always be hidden
+          </p>
+           <p id="result">
+             Correct Answer
+           </p>
+           <p id="points">
              Score : 0
            </p>
          </div>
          <div id="question">
-           <div>
+           <div id="statement">
              <!-- asdf -->
           </div>
         </div>
@@ -23,20 +29,21 @@
           </p>
         </div>
         <div id="options">
-          <button id="o1" ></button>
-          <button id="o2"></button>
-          <button id-"o3"></button>
-          <button id="o4"></button>
+          <input type="button" id="A" >
+          <input type="button" id="B" >
+          <input type="button" id="C" >
+          <input type="button" id="D" >
         </div>
         <div id="reset">
-          <button>
-            START
-          </button>
-          <p>
-            Not started
-          </p>    
+          <input type="button" id="reset_start" value="START">
+          <p id="time">
+          Not started
+          </p>
         </div>
 
     </div>
+    <script type="text/javascript" src="script.js">
+
+    </script>
   </body>
 </html>
